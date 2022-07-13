@@ -21,6 +21,9 @@ public class RetoReactividadFuncionalApplication implements CommandLineRunner {
     @Override
     public void run(String... args) throws Exception {
         Ejercicio1 ejercicio1 = new Ejercicio1();
-        ejercicio1.eliminarRepetidos(listEmail).forEach(System.out::println);
+//        ejercicio1.eliminarRepetidos(listEmail).forEach(System.out::println);
+//        ejercicio1.filtrarPorDomino(listEmail).forEach(System.out::println);
+//        ejercicio1.validacionEmail(listEmail).forEach(System.out::println);
+        System.out.println("el numero de correos validos es: "+ejercicio1.contarEmails(listEmail));
     }
 }
