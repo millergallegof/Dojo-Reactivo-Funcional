@@ -29,33 +29,33 @@ public class RetoReactividadFuncionalApplication implements CommandLineRunner {
         Ejercicio1 ejercicio1 = new Ejercicio1();
         //        PUNTO A
 //        -------------------------------------------------------------------------------------
-//        ejercicio1.eliminarRepetidos(listEmail).forEach(System.out::println);
+        ejercicio1.eliminarRepetidos(listEmail).forEach(System.out::println);
         //        PUNTO B
 //        -------------------------------------------------------------------------------------
-//        ejercicio1.filtrarPorDomino(listEmail).forEach(System.out::println);
+        ejercicio1.filtrarPorDomino(listEmail).forEach(System.out::println);
         //        PUNTO C
 //        -------------------------------------------------------------------------------------
-//        ejercicio1.validacionEmail(listEmail).forEach(System.out::println);
+        ejercicio1.validacionEmail(listEmail).forEach(System.out::println);
         //        PUNTO D
 //        -------------------------------------------------------------------------------------
-//        System.out.println("el numero de correos validos es: "+ejercicio1.contarEmails(listEmail));
+        System.out.println("el numero de correos validos es: "+ejercicio1.contarEmails(listEmail));
         //        PUNTO D
 //        -------------------------------------------------------------------------------------
-//        System.out.println("el numero de correos gmail es: %s"+ ejercicio1.listarEmailDominio(listEmail).get("@gmail.com"));
-//        System.out.println("el numero de correos hotmail es: "+ ejercicio1.listarEmailDominio(listEmail).get("@hotmail.com"));
-//        System.out.println("el numero de correos outlook es: "+ ejercicio1.listarEmailDominio(listEmail).get("@outlook.com"));
+        System.out.println("el numero de correos gmail es: %s"+ ejercicio1.listarEmailDominio(listEmail).get("@gmail.com"));
+        System.out.println("el numero de correos hotmail es: "+ ejercicio1.listarEmailDominio(listEmail).get("@hotmail.com"));
+        System.out.println("el numero de correos outlook es: "+ ejercicio1.listarEmailDominio(listEmail).get("@outlook.com"));
         //        PUNTO F
 //        -------------------------------------------------------------------------------------
-//        ejercicio1.correoEnviado(listEmail).forEach(System.out::println);
+        ejercicio1.correoEnviado(listEmail).forEach(System.out::println);
 
         //        -------------------------------------------------------------------------------------
 //        EJERCICIO 2
 //        -------------------------------------------------------------------------------------
-//        Ejercicio2 ejercicio2 = new Ejercicio2();
-//        ejercicio2.filtroChat();
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+        ejercicio2.filtroChat();
 
 //        -------------------------------------------------------------------------------------
-//        EJERCICIO 2
+//        EJERCICIO 3
 //        -------------------------------------------------------------------------------------
         Ejercicio3 ejercicio3 = new Ejercicio3();
 
