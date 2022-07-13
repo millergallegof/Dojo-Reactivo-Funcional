@@ -2,6 +2,7 @@ package co.com.sofka.retoreactividadfuncional;
 
 import co.com.sofka.retoreactividadfuncional.data.DataEmail;
 import co.com.sofka.retoreactividadfuncional.ejercicio1.Ejercicio1;
+import co.com.sofka.retoreactividadfuncional.ejercicio2.Ejercicio2;
 import co.com.sofka.retoreactividadfuncional.model.Email;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -43,7 +44,12 @@ public class RetoReactividadFuncionalApplication implements CommandLineRunner {
 //        System.out.println("el numero de correos outlook es: "+ ejercicio1.listarEmailDominio(listEmail).get("@outlook.com"));
         //        PUNTO F
 //        -------------------------------------------------------------------------------------
-        ejercicio1.correoEnviado(listEmail).forEach(System.out::println);
+//        ejercicio1.correoEnviado(listEmail).forEach(System.out::println);
 
+        //        -------------------------------------------------------------------------------------
+//        EJERCICIO 2
+//        -------------------------------------------------------------------------------------
+        Ejercicio2 ejercicio2 = new Ejercicio2();
+        ejercicio2.filtroChat();
     }
 }
