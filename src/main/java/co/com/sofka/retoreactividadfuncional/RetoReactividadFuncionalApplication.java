@@ -20,10 +20,30 @@ public class RetoReactividadFuncionalApplication implements CommandLineRunner {
 
     @Override
     public void run(String... args) throws Exception {
+//        -------------------------------------------------------------------------------------
+//        EJERCICIO 1
+//        -------------------------------------------------------------------------------------
         Ejercicio1 ejercicio1 = new Ejercicio1();
+        //        PUNTO A
+//        -------------------------------------------------------------------------------------
 //        ejercicio1.eliminarRepetidos(listEmail).forEach(System.out::println);
+        //        PUNTO B
+//        -------------------------------------------------------------------------------------
 //        ejercicio1.filtrarPorDomino(listEmail).forEach(System.out::println);
+        //        PUNTO C
+//        -------------------------------------------------------------------------------------
 //        ejercicio1.validacionEmail(listEmail).forEach(System.out::println);
-        System.out.println("el numero de correos validos es: "+ejercicio1.contarEmails(listEmail));
+        //        PUNTO D
+//        -------------------------------------------------------------------------------------
+//        System.out.println("el numero de correos validos es: "+ejercicio1.contarEmails(listEmail));
+        //        PUNTO D
+//        -------------------------------------------------------------------------------------
+//        System.out.println("el numero de correos gmail es: %s"+ ejercicio1.listarEmailDominio(listEmail).get("@gmail.com"));
+//        System.out.println("el numero de correos hotmail es: "+ ejercicio1.listarEmailDominio(listEmail).get("@hotmail.com"));
+//        System.out.println("el numero de correos outlook es: "+ ejercicio1.listarEmailDominio(listEmail).get("@outlook.com"));
+        //        PUNTO F
+//        -------------------------------------------------------------------------------------
+        ejercicio1.correoEnviado(listEmail).forEach(System.out::println);
+
     }
 }
