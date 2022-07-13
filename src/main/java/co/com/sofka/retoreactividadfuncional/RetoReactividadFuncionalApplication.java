@@ -3,6 +3,7 @@ package co.com.sofka.retoreactividadfuncional;
 import co.com.sofka.retoreactividadfuncional.data.DataEmail;
 import co.com.sofka.retoreactividadfuncional.ejercicio1.Ejercicio1;
 import co.com.sofka.retoreactividadfuncional.ejercicio2.Ejercicio2;
+import co.com.sofka.retoreactividadfuncional.ejercicio3.Ejercicio3;
 import co.com.sofka.retoreactividadfuncional.model.Email;
 import org.springframework.boot.CommandLineRunner;
 import org.springframework.boot.SpringApplication;
@@ -14,6 +15,7 @@ import java.util.List;
 public class RetoReactividadFuncionalApplication implements CommandLineRunner {
 
     private final List<Email> listEmail = DataEmail.getEmails();
+
 
     public static void main(String[] args) {
         SpringApplication.run(RetoReactividadFuncionalApplication.class, args);
@@ -49,7 +51,15 @@ public class RetoReactividadFuncionalApplication implements CommandLineRunner {
         //        -------------------------------------------------------------------------------------
 //        EJERCICIO 2
 //        -------------------------------------------------------------------------------------
-        Ejercicio2 ejercicio2 = new Ejercicio2();
-        ejercicio2.filtroChat();
+//        Ejercicio2 ejercicio2 = new Ejercicio2();
+//        ejercicio2.filtroChat();
+
+//        -------------------------------------------------------------------------------------
+//        EJERCICIO 2
+//        -------------------------------------------------------------------------------------
+        Ejercicio3 ejercicio3 = new Ejercicio3();
+
+        System.out.println(ejercicio3.derivar(5.0,4.0));
+        System.out.println(ejercicio3.integrar(20.0,3.0));
     }
 }
